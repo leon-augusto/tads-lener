@@ -1,23 +1,33 @@
 # LENER - School Admin
 
-
 **Sistema Web com a finalidade a administração de uma (fictícia) escola preparatória para concursos.**
+
+Projeto realizado por incentivo do professor Luis Reinoso.
 
 ![img01](https://github.com/leon-augusto/tads-lener/assets/85239503/89bc5455-3e54-449c-9930-65c4144790e2)
 ![img02](https://github.com/leon-augusto/tads-lener/assets/85239503/8370a10b-a3e8-46c7-8919-bb4d757de5b0)
 ![img03](https://github.com/leon-augusto/tads-lener/assets/85239503/644efb8e-92fc-4988-8c3a-79bd47d757c6)
 
-A versão original e completa está em um repositório privado, neste é abordado o projeto em [Django](https://www.djangoproject.com/) sem as configurações do sistema de banco de dados utilizado: [PostgreSQL](https://www.postgresql.org/) e, também sem as para acesso ao armazenamento na plataforma [Cloudinary](https://cloudinary.com/), mediante essas situações, este projeto implica em usar de armazenamento local.
+## Tecnologias e Plataformas Utilizadas
 
-Projeto realizado por incentivo do professor Luis Reinoso, em sua disciplina Sociedade e Informática.
+- **Django**: O framework web utilizado para desenvolver o projeto;
+- **PostgreSQL**: O sistema de gerenciamento de banco de dados relacional utilizado;
+- **Vercel**: A plataforma de hospedagem utilizada para o front-end e outros componentes do projeto e;
+- **Cloudinary**: O serviço de armazenamento de mídia em nuvem utilizado.
 
-> **NOTE**: Documentação disponível ao acesso remoto em breve, mas [clicando aqui](https://github.com/leon-augusto/docs), o(a) senhor(a) será redirecionado ao repositório.
+### ATENÇÃO!
 
-Os participantes do projeto foram:
+Por está sem uma base de dados remota no momento, o acesso na web dessa aplicação é inviável. Para teste local, opte por usar a **primeia versão** deste projeto, a que implica em armazenamento local.
+
+As configurações do sistema de banco de dados utilizado: [PostgreSQL](https://www.postgresql.org/) e, também sem as para acesso ao armazenamento na plataforma [Cloudinary](https://cloudinary.com/), mediante a atual situação, é para o intuito somente demostrativo.
+
+Para acesso à mais informações, entre em contato com o desenvolvedor.
+
+> **NOTE**: Documentação disponível ao acesso remoto em breve, mas [clicando aqui](https://github.com/leon-augusto/docs), o(a) senhor(a) será redirecionado ao repositório onde há uma prévia dela.
+
+## Os participantes do projeto foram:
 - [Edilenon Vieira](https://github.com/Edilenon);
 - Euler Vieira;
 - Fernanda Neves;
 - [Leon Augusto](https://github.com/leon-augusto/) e;
 - [Raila Carvalho](https://github.com/RailaCarvalho).
-
-> **NOTE**: Não mais dispinível na web, para acesso à mais informações do projeto como um todo entre, contato com o desenvolvedor.
