@@ -31,7 +31,6 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
-html_output = os.path.abspath(os.path.join(os.path.dirname(__file__), '_build', 'html'))
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
