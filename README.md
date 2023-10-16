@@ -21,13 +21,13 @@ Por está sem uma base de dados remota no momento, o acesso na web dessa aplica�
 
 As configurações do sistema de banco de dados utilizado: [PostgreSQL](https://www.postgresql.org/) e, também sem as para acesso ao armazenamento na plataforma [Cloudinary](https://cloudinary.com/), mediante a atual situação, é para o intuito somente demostrativo.
 
-Para acesso à mais informações, entre em contato com o desenvolvedor.
-
-> **NOTE**: Documentação disponível ao acesso remoto em breve, mas [clicando aqui](https://github.com/leon-augusto/docs), o(a) senhor(a) será redirecionado ao repositório onde há uma prévia dela.
-
 ## Os participantes do projeto foram:
 - [Edilenon Vieira](https://github.com/Edilenon);
 - Euler Vieira;
 - Fernanda Neves;
 - [Leon Augusto](https://github.com/leon-augusto/) e;
 - [Raila Carvalho](https://github.com/RailaCarvalho).
+
+## [Documentação Ocicial](https://tads-lener-2ifibgwfr-leon-augusto.vercel.app/)
+    https://tads-lener-2ifibgwfr-leon-augusto.vercel.app/
+Para acesso à mais informações, entre em contato com o desenvolvedor.
