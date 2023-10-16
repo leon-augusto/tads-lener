@@ -28,6 +28,6 @@ As configurações do sistema de banco de dados utilizado: [PostgreSQL](https://
 - [Leon Augusto](https://github.com/leon-augusto/) e;
 - [Raila Carvalho](https://github.com/RailaCarvalho).
 
-## [Documentação Ocicial](https://tads-lener-2ifibgwfr-leon-augusto.vercel.app/)
+## [Documentação Oficial](https://tads-lener-2ifibgwfr-leon-augusto.vercel.app/)
     https://tads-lener-2ifibgwfr-leon-augusto.vercel.app/
 Para acesso à mais informações, entre em contato com o desenvolvedor.
