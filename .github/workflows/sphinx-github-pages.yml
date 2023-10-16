@@ -26,9 +26,12 @@ jobs:
       run: |
         cd docs
         make html
+        cp _build/html/_modules/* ./_modules/
+        shopt -s extglob
+        cp -r _build/html/!(_modules) .
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.MY_GITHUB_TOKEN }}
-        publish_dir: _build/html
+        publish_dir: docs/_build/html
