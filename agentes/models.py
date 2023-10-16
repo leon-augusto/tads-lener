@@ -32,9 +32,9 @@ class Student(models.Model):
 
     def photo_preview(self):
         """
-        Retorna uma tag HTML <img> com os valores "self.photo.url" e "100px" param respectivamente, os atributos src e width.
+        Returns an HTML <img> tag with 'self.photo.url' and '100px' as src and width attributes, respectively.
 
-        :return: Uma tag HTML <img>.
+        :return: An HTML <img> tag.
         :rtype: str
         """
         return format_html(f'<img src="{self.photo.url}" width="100px" />')
@@ -73,9 +73,9 @@ class Teacher(models.Model):
 
     def photo_preview(self):
         """
-        Retorna uma tag HTML <img> com os valores "self.photo.url" e "100px" param respectivamente, os atributos src e width.
+        Returns an HTML <img> tag with 'self.photo.url' and '100px' as src and width attributes, respectively.
 
-        :return: Uma tag HTML <img>.
+        :return: An HTML <img> tag.
         :rtype: str
         """
         return format_html(f'<img src="{self.photo.url}" width="100px" />')

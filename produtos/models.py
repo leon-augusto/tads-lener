@@ -1,5 +1,4 @@
 from datetime import datetime
-
 from django.db import models
 
 
@@ -36,9 +35,9 @@ class Course(models.Model):
 
     def get_themes(self):
         """
-        Retorna uma lista de disciplinas (themes) como strings.
+        Returns a list of themes as strings.
 
-        :return: A lista de disciplinas (themes).
+        :return: The list of themes.
         :rtype: list[str]
         """
         return ", ".join([theme.name for theme in self.themes.all()])
