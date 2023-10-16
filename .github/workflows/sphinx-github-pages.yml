@@ -3,7 +3,7 @@ name: Build and Deploy Documentation
 on:
   push:
     branches:
-      - main  # substitua pela branch principal do seu repositório
+      - main
 
 jobs:
   build:
@@ -31,4 +31,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.MY_GITHUB_TOKEN }}
-        publish_dir: docs/_build/html
+        publish_dir: _build/html
